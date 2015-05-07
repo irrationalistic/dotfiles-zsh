@@ -88,6 +88,7 @@ alias s='st'
 alias s.='stt'
 alias a='atom'
 alias a.='atom .'
+alias v='mvim'
 
 
 # Environment variables
