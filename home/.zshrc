@@ -107,6 +107,10 @@ export NODE_PATH=$NODE_PATH:/usr/local/lib/node_modules
 export EDITOR=/usr/local/bin/vim
 export VISUAL=/usr/local/bin/vim
 
+# Base16 Shell
+BASE16_SHELL="$HOME/.config/base16-shell/base16-eighties.dark.sh"
+[[ -s $BASE16_SHELL ]] && source $BASE16_SHELL
+
 
 #    .88888.   888888ba  d888888P dP  .88888.  888888ba  .d88888b
 #   d8'   `8b  88    `8b    88    88 d8'   `8b 88    `8b 88.    "'
