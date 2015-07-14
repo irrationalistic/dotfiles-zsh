@@ -274,29 +274,29 @@ unsetopt CORRECT
 
 
 
-bindkey -M vicmd "q" push-line
-bindkey -M viins ' ' magic-space
-
-# ctrl-j newline
-bindkey '^n' accept-line
-bindkey -a '^n' accept-line
-
-# another rotation to match qwerty
-bindkey -a 'n' down-line-or-history
-bindkey -a 'e' up-line-or-history
-bindkey -a 'i' vi-forward-char
-
-# make qwerty
-#bindkey -a 'k' vi-repeat-search
-#bindkey -a 'K' vi-rev-repeat-search
-bindkey -a 'k' vi-insert
-bindkey -a 'K' vi-insert-bol
-bindkey -a 'u' vi-undo-change
-bindkey -a 'N' vi-join
-
-# spare
-bindkey -a 'j' vi-forward-word-end
-bindkey -a 'J' vi-forward-blank-word-end
+# bindkey -M vicmd "q" push-line
+# bindkey -M viins ' ' magic-space
+# 
+# # ctrl-j newline
+# bindkey '^n' accept-line
+# bindkey -a '^n' accept-line
+# 
+# # another rotation to match qwerty
+# bindkey -a 'n' down-line-or-history
+# bindkey -a 'e' up-line-or-history
+# bindkey -a 'i' vi-forward-char
+# 
+# # make qwerty
+# #bindkey -a 'k' vi-repeat-search
+# #bindkey -a 'K' vi-rev-repeat-search
+# bindkey -a 'k' vi-insert
+# bindkey -a 'K' vi-insert-bol
+# bindkey -a 'u' vi-undo-change
+# bindkey -a 'N' vi-join
+# 
+# # spare
+# bindkey -a 'j' vi-forward-word-end
+# bindkey -a 'J' vi-forward-blank-word-end
 
 # ctrl-r history search
 bindkey '^R' history-incremental-search-backward
